@@ -22,6 +22,16 @@
 		0EAADC50196993280056393F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EAADC34196993280056393F /* CoreData.framework */; };
 		0EAADC58196993280056393F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0EAADC56196993280056393F /* InfoPlist.strings */; };
 		0EAADC5A196993290056393F /* WhosWhoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAADC59196993280056393F /* WhosWhoTests.m */; };
+		0EAADC64196995120056393F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0EAADC63196995120056393F /* README.md */; };
+		0EAADC69196995BA0056393F /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EAADC68196995BA0056393F /* Storyboard.storyboard */; };
+		0EAADC6C1969BD090056393F /* TIWMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAADC6B1969BD090056393F /* TIWMainTableViewController.m */; };
+		0EAADC6F1969BD7E0056393F /* TIWEmployeeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAADC6E1969BD7E0056393F /* TIWEmployeeTableViewCell.m */; };
+		0EAADC75196A99CF0056393F /* TIWHTMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAADC74196A99CF0056393F /* TIWHTMLParser.m */; };
+		0EAADC78196ACAB30056393F /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAADC77196ACAB30056393F /* Employee.m */; };
+		0EAADC7B196AD3260056393F /* TIWCircleImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAADC7A196AD3260056393F /* TIWCircleImageView.m */; };
+		0EAADC7E196AD6AD0056393F /* TIWImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAADC7D196AD6AD0056393F /* TIWImageDownloader.m */; };
+		0EAADC81196AF1F90056393F /* TIWDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAADC80196AF1F90056393F /* TIWDetailsViewController.m */; };
+		0EAADC83196AFF750056393F /* person.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0EAADC82196AFF750056393F /* person.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +63,23 @@
 		0EAADC55196993280056393F /* WhosWhoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WhosWhoTests-Info.plist"; sourceTree = "<group>"; };
 		0EAADC57196993280056393F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0EAADC59196993280056393F /* WhosWhoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhosWhoTests.m; sourceTree = "<group>"; };
+		0EAADC63196995120056393F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		0EAADC68196995BA0056393F /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		0EAADC6A1969BD090056393F /* TIWMainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIWMainTableViewController.h; sourceTree = "<group>"; };
+		0EAADC6B1969BD090056393F /* TIWMainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIWMainTableViewController.m; sourceTree = "<group>"; };
+		0EAADC6D1969BD7E0056393F /* TIWEmployeeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIWEmployeeTableViewCell.h; sourceTree = "<group>"; };
+		0EAADC6E1969BD7E0056393F /* TIWEmployeeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIWEmployeeTableViewCell.m; sourceTree = "<group>"; };
+		0EAADC73196A99CF0056393F /* TIWHTMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIWHTMLParser.h; sourceTree = "<group>"; };
+		0EAADC74196A99CF0056393F /* TIWHTMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIWHTMLParser.m; sourceTree = "<group>"; };
+		0EAADC76196ACAB30056393F /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
+		0EAADC77196ACAB30056393F /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
+		0EAADC79196AD3260056393F /* TIWCircleImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIWCircleImageView.h; sourceTree = "<group>"; };
+		0EAADC7A196AD3260056393F /* TIWCircleImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIWCircleImageView.m; sourceTree = "<group>"; };
+		0EAADC7C196AD6AD0056393F /* TIWImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIWImageDownloader.h; sourceTree = "<group>"; };
+		0EAADC7D196AD6AD0056393F /* TIWImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIWImageDownloader.m; sourceTree = "<group>"; };
+		0EAADC7F196AF1F90056393F /* TIWDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIWDetailsViewController.h; sourceTree = "<group>"; };
+		0EAADC80196AF1F90056393F /* TIWDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIWDetailsViewController.m; sourceTree = "<group>"; };
+		0EAADC82196AFF750056393F /* person.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +111,7 @@
 		0EAADC22196993280056393F = {
 			isa = PBXGroup;
 			children = (
+				0EAADC63196995120056393F /* README.md */,
 				0EAADC36196993280056393F /* WhosWho */,
 				0EAADC53196993280056393F /* WhosWhoTests */,
 				0EAADC2D196993280056393F /* Frameworks */,
@@ -115,10 +143,9 @@
 		0EAADC36196993280056393F /* WhosWho */ = {
 			isa = PBXGroup;
 			children = (
-				0EAADC3F196993280056393F /* TIWAppDelegate.h */,
-				0EAADC40196993280056393F /* TIWAppDelegate.m */,
-				0EAADC45196993280056393F /* Images.xcassets */,
-				0EAADC42196993280056393F /* WhosWho.xcdatamodeld */,
+				0EAADC651969954B0056393F /* Controller */,
+				0EAADC66196995550056393F /* View */,
+				0EAADC671969955D0056393F /* Model */,
 				0EAADC37196993280056393F /* Supporting Files */,
 			);
 			path = WhosWho;
@@ -151,6 +178,47 @@
 				0EAADC56196993280056393F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0EAADC651969954B0056393F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0EAADC3F196993280056393F /* TIWAppDelegate.h */,
+				0EAADC40196993280056393F /* TIWAppDelegate.m */,
+				0EAADC6A1969BD090056393F /* TIWMainTableViewController.h */,
+				0EAADC6B1969BD090056393F /* TIWMainTableViewController.m */,
+				0EAADC6D1969BD7E0056393F /* TIWEmployeeTableViewCell.h */,
+				0EAADC6E1969BD7E0056393F /* TIWEmployeeTableViewCell.m */,
+				0EAADC7F196AF1F90056393F /* TIWDetailsViewController.h */,
+				0EAADC80196AF1F90056393F /* TIWDetailsViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		0EAADC66196995550056393F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0EAADC82196AFF750056393F /* person.jpeg */,
+				0EAADC45196993280056393F /* Images.xcassets */,
+				0EAADC68196995BA0056393F /* Storyboard.storyboard */,
+				0EAADC79196AD3260056393F /* TIWCircleImageView.h */,
+				0EAADC7A196AD3260056393F /* TIWCircleImageView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		0EAADC671969955D0056393F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0EAADC42196993280056393F /* WhosWho.xcdatamodeld */,
+				0EAADC76196ACAB30056393F /* Employee.h */,
+				0EAADC77196ACAB30056393F /* Employee.m */,
+				0EAADC73196A99CF0056393F /* TIWHTMLParser.h */,
+				0EAADC74196A99CF0056393F /* TIWHTMLParser.m */,
+				0EAADC7C196AD6AD0056393F /* TIWImageDownloader.h */,
+				0EAADC7D196AD6AD0056393F /* TIWImageDownloader.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +297,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EAADC64196995120056393F /* README.md in Resources */,
+				0EAADC69196995BA0056393F /* Storyboard.storyboard in Resources */,
+				0EAADC83196AFF750056393F /* person.jpeg in Resources */,
 				0EAADC3B196993280056393F /* InfoPlist.strings in Resources */,
 				0EAADC46196993280056393F /* Images.xcassets in Resources */,
 			);
@@ -249,9 +320,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EAADC6F1969BD7E0056393F /* TIWEmployeeTableViewCell.m in Sources */,
 				0EAADC3D196993280056393F /* main.m in Sources */,
 				0EAADC41196993280056393F /* TIWAppDelegate.m in Sources */,
+				0EAADC7B196AD3260056393F /* TIWCircleImageView.m in Sources */,
+				0EAADC75196A99CF0056393F /* TIWHTMLParser.m in Sources */,
+				0EAADC78196ACAB30056393F /* Employee.m in Sources */,
+				0EAADC81196AF1F90056393F /* TIWDetailsViewController.m in Sources */,
+				0EAADC7E196AD6AD0056393F /* TIWImageDownloader.m in Sources */,
 				0EAADC44196993280056393F /* WhosWho.xcdatamodeld in Sources */,
+				0EAADC6C1969BD090056393F /* TIWMainTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,6 +526,7 @@
 				0EAADC5F196993290056393F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0EAADC60196993290056393F /* Build configuration list for PBXNativeTarget "WhosWhoTests" */ = {
 			isa = XCConfigurationList;
@@ -456,6 +535,7 @@
 				0EAADC62196993290056393F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
