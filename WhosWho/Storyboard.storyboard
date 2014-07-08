@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="zhd-aO-Q7Y">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="zhd-aO-Q7Y">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
@@ -76,44 +76,75 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7ca-X4-har" customClass="TIWCircleImageView">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="7ca-X4-har" customClass="TIWCircleImageView">
                                 <rect key="frame" x="96" y="68" width="128" height="128"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OQH-J0-JRH">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OQH-J0-JRH">
                                 <rect key="frame" x="55" y="198" width="300" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wED-XA-uut">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wED-XA-uut">
                                 <rect key="frame" x="55" y="243" width="300" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mre-t9-1Zi">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mre-t9-1Zi">
                                 <rect key="frame" x="2" y="198" width="50" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="sG8-y1-BI5"/>
+                                    <constraint firstAttribute="height" constant="40" id="xaQ-GK-MqB"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iic-7e-kDl">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iic-7e-kDl">
                                 <rect key="frame" x="2" y="243" width="50" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="I4F-BB-Waq"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OXL-wb-I8L">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OXL-wb-I8L">
                                 <rect key="frame" x="0.0" y="288" width="320" height="280"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <mutableString key="text">some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text </mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="mre-t9-1Zi" firstAttribute="leading" secondItem="lws-4d-tkN" secondAttribute="leading" constant="2" id="3HY-rS-fgn"/>
+                            <constraint firstItem="OQH-J0-JRH" firstAttribute="top" secondItem="mre-t9-1Zi" secondAttribute="top" id="3u4-4Z-tj9"/>
+                            <constraint firstAttribute="trailing" secondItem="OXL-wb-I8L" secondAttribute="trailing" id="BSu-qL-Axx"/>
+                            <constraint firstItem="mre-t9-1Zi" firstAttribute="top" secondItem="yeA-1r-E5J" secondAttribute="bottom" constant="134" id="BVy-HB-5q4"/>
+                            <constraint firstItem="Iic-7e-kDl" firstAttribute="top" secondItem="wED-XA-uut" secondAttribute="top" id="EIV-42-kFL"/>
+                            <constraint firstItem="OXL-wb-I8L" firstAttribute="centerX" secondItem="7ca-X4-har" secondAttribute="centerX" id="Env-sI-pTx"/>
+                            <constraint firstItem="mre-t9-1Zi" firstAttribute="leading" secondItem="Iic-7e-kDl" secondAttribute="leading" id="ImL-8J-oQd"/>
+                            <constraint firstAttribute="trailing" secondItem="OQH-J0-JRH" secondAttribute="trailing" constant="-35" id="K9j-qQ-7fI"/>
+                            <constraint firstItem="OXL-wb-I8L" firstAttribute="leading" secondItem="lws-4d-tkN" secondAttribute="leading" id="Lcz-3s-grA"/>
+                            <constraint firstItem="OQH-J0-JRH" firstAttribute="leading" secondItem="wED-XA-uut" secondAttribute="leading" id="LqE-Sy-iFA"/>
+                            <constraint firstItem="OQH-J0-JRH" firstAttribute="leading" secondItem="mre-t9-1Zi" secondAttribute="trailing" constant="3" id="NHA-jP-RUf"/>
+                            <constraint firstItem="OXL-wb-I8L" firstAttribute="top" secondItem="Iic-7e-kDl" secondAttribute="bottom" constant="5" id="PZe-0k-r3j"/>
+                            <constraint firstItem="OQH-J0-JRH" firstAttribute="top" secondItem="7ca-X4-har" secondAttribute="bottom" constant="2" id="VDv-AM-hgl"/>
+                            <constraint firstItem="wED-XA-uut" firstAttribute="baseline" secondItem="Iic-7e-kDl" secondAttribute="baseline" id="auW-UD-dtA"/>
+                            <constraint firstItem="Iic-7e-kDl" firstAttribute="top" secondItem="mre-t9-1Zi" secondAttribute="bottom" constant="5" id="gcb-Gp-9de"/>
+                            <constraint firstAttribute="bottom" secondItem="OXL-wb-I8L" secondAttribute="bottom" id="gpF-f3-STG"/>
+                            <constraint firstItem="7ca-X4-har" firstAttribute="leading" secondItem="lws-4d-tkN" secondAttribute="leading" constant="96" id="hDB-7G-EZA"/>
+                            <constraint firstItem="wED-XA-uut" firstAttribute="trailing" secondItem="OQH-J0-JRH" secondAttribute="trailing" id="ikg-SN-mTd"/>
+                            <constraint firstItem="7ca-X4-har" firstAttribute="top" secondItem="yeA-1r-E5J" secondAttribute="bottom" constant="4" id="nTY-cu-SG8"/>
+                            <constraint firstItem="mre-t9-1Zi" firstAttribute="trailing" secondItem="Iic-7e-kDl" secondAttribute="trailing" id="t1f-ms-CHf"/>
+                            <constraint firstItem="mre-t9-1Zi" firstAttribute="baseline" secondItem="OQH-J0-JRH" secondAttribute="baseline" id="y42-6Q-iSv"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Details" id="etM-zb-Oks">
                         <barButtonItem key="backBarButtonItem" title="Employees" id="QmC-9x-Xzh"/>

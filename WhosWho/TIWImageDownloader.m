@@ -40,7 +40,7 @@ static TIWImageDownloader *shared = nil;
     NSURL *url = [NSURL URLWithString: imageUrl];
     NSURLRequest *request = [NSURLRequest requestWithURL: url];
     
-    NSString *hash = [NSString stringWithFormat: @"%016x", [imageUrl hash]];
+    NSString *hash = [NSString stringWithFormat: @"%016lx", (unsigned long)[imageUrl hash]];
     NSString *path = [[NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) lastObject] stringByAppendingPathComponent: hash];
     
     // check whether we have a cached version of the image we can return straight away
