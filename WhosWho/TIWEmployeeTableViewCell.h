@@ -12,7 +12,6 @@
 @interface TIWEmployeeTableViewCell : UITableViewCell
 @property (strong, nonatomic) IBOutlet UILabel *lblName;
 @property (strong, nonatomic) IBOutlet UILabel *lblTitle;
-//@property (strong, nonatomic) IBOutlet UILabel *lblBiography;
 @property (strong, nonatomic) IBOutlet TIWCircleImageView *ivImage;
 
 
