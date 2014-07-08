@@ -206,9 +206,9 @@
         case NSFetchedResultsChangeInsert:
             [tableView insertRowsAtIndexPaths:[NSArray arrayWithObject:newIndexPath]
                              withRowAnimation:UITableViewRowAnimationFade];
-        case NSFetchedResultsChangeDelete:
-            [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationAutomatic];
-            break;
+//        case NSFetchedResultsChangeDelete:
+//            [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationAutomatic];
+//            break;
             
 //        case NSFetchedResultsChangeUpdate:
 //            [self configureCell:[tableView cellForRowAtIndexPath:indexPath] atIndexPath:indexPath];
